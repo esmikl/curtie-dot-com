@@ -12,13 +12,10 @@ jobs:
       # Checkout the repository
       - name: Checkout
         uses: actions/checkout@v4.1.1
-        with: https://github.com/esmikl/curtie-dot-com.git
 
       # Setup Node
       - name: Setup Node
         uses: actions/setup-node@v4
-        node-version: 20
-        check-latest: true
 
       # Install Dependencies
       - name: Install Dependences
