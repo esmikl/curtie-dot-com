@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="516cf197-2eaa-4db8-b3dd-d5b694439dfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/using-ssr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1pdQA2zQbIdURdJRNUsUpKkiYl1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="516cf197-2eaa-4db8-b3dd-d5b694439dfb" name="Default Changelist" comment="" />
+      <created>1615510343381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615510343381</updated>
+      <workItem from="1615510346274" duration="2573000" />
+      <workItem from="1615823890151" duration="248000" />
+      <workItem from="1615922758178" duration="689000" />
+      <workItem from="1620692980142" duration="2366000" />
+      <workItem from="1620779926491" duration="1897000" />
+      <workItem from="1621123724820" duration="5163000" />
+      <workItem from="1621470256878" duration="4597000" />
+      <workItem from="1621801589474" duration="3004000" />
+      <workItem from="1621987277509" duration="5969000" />
+      <workItem from="1622039448693" duration="448000" />
+      <workItem from="1622065431712" duration="10264000" />
+      <workItem from="1622079322769" duration="120000" />
+      <workItem from="1622125973999" duration="1599000" />
+      <workItem from="1622561398034" duration="7000" />
+      <workItem from="1652292603360" duration="4419000" />
+      <workItem from="1652472356446" duration="602000" />
+      <workItem from="1652800083429" duration="1000" />
+      <workItem from="1658944333717" duration="1565000" />
+      <workItem from="1659104400739" duration="627000" />
+      <workItem from="1659107122414" duration="57000" />
+      <workItem from="1659453432116" duration="1212000" />
+      <workItem from="1672332429704" duration="3000" />
+      <workItem from="1684186838002" duration="698000" />
+      <workItem from="1684187871834" duration="585000" />
+      <workItem from="1711565843673" duration="64000" />
+      <workItem from="1711582333299" duration="2616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

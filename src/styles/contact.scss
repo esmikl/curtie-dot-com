@@ -1,0 +1,20 @@
+@use './colors';
+
+.form-container {
+  max-width: 30rem;
+}
+
+.alert {
+  margin-bottom: 2rem;
+}
+
+.submit-button.MuiButton-contained {
+  background-color: colors.$text;
+  color: #fff;
+  margin-top: 2rem;
+
+  &:hover {
+    background-color: colors.$primary;
+    color: colors.$text;
+  }
+}

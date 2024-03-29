@@ -1,10 +1,14 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "curtie-dot-com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Curtis Harrison, photographer, Bloomer, Wisconsin.",
+  "version": "2.0.0",
+  "author": "Emily Mikl emilysmikl@gmail.com",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
@@ -15,6 +19,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "prettier": "^2.8.8"
   },
   "keywords": [
@@ -22,9 +29,11 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "audit": "npm run format && npm run prettier:check",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
