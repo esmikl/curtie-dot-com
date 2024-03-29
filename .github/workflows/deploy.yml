@@ -13,7 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
         with: https://github.com/esmikl/curtie-dot-com.git
-        ref: main
 
       # Setup Node
       - name: Setup Node
