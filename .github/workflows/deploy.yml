@@ -1,0 +1,38 @@
+on:
+  push:
+    branches:
+      - main
+name: 🚀 Deploy website on push
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy website
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+        with: https://github.com/esmikl/curtie-dot-com.git
+        ref: main
+
+      # Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        node-version: 20
+        check-latest: true
+
+      # Install Dependencies
+      - name: Install Dependences
+        run: npm ci
+
+      # Build
+      - name: Build Project
+        run: npm run build
+
+      # sync files via FTP
+      - name: Sync files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
