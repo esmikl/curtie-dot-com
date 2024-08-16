@@ -7,7 +7,9 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-require("dotenv").config()
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+});
 module.exports = {
     siteMetadata: {
         title: `Curtie Dot Com, Inc.`,
@@ -38,5 +40,11 @@ module.exports = {
                 },
             },
         },
+        {
+            resolve: "gatsby-source-custom-api",
+            options: {
+                apiKey: process.env.GATSBY_API_SERVICE_ID
+            }
+        }
     ],
 }

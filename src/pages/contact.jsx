@@ -2,13 +2,11 @@ import React from "react"
 import {Link} from "gatsby";
 import PrimaryLayout from "../layouts/PrimaryLayout";
 import "../styles/contact.scss";
-import axios from "axios";
 import Alert from '@mui/material/Alert';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-
-const API_PATH = '/api/contact.php';
+import emailjs from '@emailjs/browser';
 
 const Contact  = () => {
   const [errors, setErrors] = React.useState({
@@ -53,30 +51,28 @@ const Contact  = () => {
 
   const formSubmit = ( event ) => {
     event.preventDefault();
-    axios({
-      method: 'post',
-      url: `${API_PATH}`,
-      headers: { 'content-type': 'application/json' },
-      data: values
-    })
-      .then((response) => {
-        setValues({
-          ...values,
-          sent: true,
-          name: '',
-          message: '',
-          phone: '',
-          email: ''
-        });
-        console.log(response);
-      })
-      .catch(error => {
-        setValues({
-          ...values,
-          error: error.message,
-          emailError: true
+    console.log(process.env.GATSBY_API_PUBLIC_KEY);
+    emailjs.send(process.env.SERVICE_ID, process.env.TEMPLATE_ID, {
+          "from_name": values.name,
+          "message": values.message,
+          "phone": values.phone,
+          "email": values.email
+        }, {
+          publicKey: process.env.PUBLIC_KEY,
         })
-      });
+        .then(
+            () => {
+              //focus message div
+            },
+            (error) => {
+              console.log(error);
+              setValues({
+                ...values,
+                error: 'Something went wrong. Please try again.',
+                emailError: true
+              })
+            },
+        );
   }
 
   return (

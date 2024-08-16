@@ -5,6 +5,7 @@
   "version": "2.0.0",
   "author": "Emily Mikl emilysmikl@gmail.com",
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.14",
@@ -15,6 +16,7 @@
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
+    "gatsby-source-custom-api": "2.3.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
